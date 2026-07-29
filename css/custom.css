@@ -1,0 +1,42 @@
+/* 森林海洋渐变动态背景 */
+body {
+  background: linear-gradient(135deg, #0c1a1f 0%, #0d2818 25%, #0a1628 50%, #0d1f2d 75%, #0c1a1f 100%);
+  background-size: 400% 400%;
+  animation: natureGradient 30s ease infinite;
+  background-attachment: fixed;
+}
+
+@keyframes natureGradient {
+  0%   { background-position: 0% 50%; }
+  25%  { background-position: 100% 0%; }
+  50%  { background-position: 100% 100%; }
+  75%  { background-position: 0% 100%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* 暗色模式下 */
+[data-theme="dark"] body {
+  background: linear-gradient(135deg, #0a0f14 0%, #0d1f1a 25%, #0a1018 50%, #0d1720 75%, #0a0f14 100%);
+  background-size: 400% 400%;
+  animation: natureGradient 30s ease infinite;
+  background-attachment: fixed;
+}
+
+/* 卡片半透明毛玻璃 */
+#body-wrap > div,
+.recent-posts > .recent-post-item,
+.card-widget,
+#aside-content .card-widget {
+  background: rgba(255, 255, 255, 0.85) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}
+
+[data-theme="dark"] #body-wrap > div,
+[data-theme="dark"] .recent-posts > .recent-post-item,
+[data-theme="dark"] .card-widget,
+[data-theme="dark"] #aside-content .card-widget {
+  background: rgba(22, 27, 34, 0.85) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+}

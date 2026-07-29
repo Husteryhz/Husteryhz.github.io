@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>漫谈 · 开篇</title>
+      <link href="/2026/07/29/%E6%BC%AB%E8%B0%88-%E5%BC%80%E7%AF%87/"/>
+      <url>/2026/07/29/%E6%BC%AB%E8%B0%88-%E5%BC%80%E7%AF%87/</url>
+      
+        <content type="html"><![CDATA[<h2 id="关于这个专栏"><a href="#关于这个专栏" class="headerlink" title="关于这个专栏"></a>关于这个专栏</h2><p>“漫谈”——天马行空，无所不聊。</p><p>技术趋势、行业观察、生活随笔、胡思乱想。不设边界，随心而写。</p><hr><p>未完待续。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 漫谈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随笔 </tag>
+            
+            <tag> 杂谈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>秋水的书屋 · 开篇</title>
+      <link href="/2026/07/29/%E4%B9%A6%E5%B1%8B-%E5%BC%80%E7%AF%87/"/>
+      <url>/2026/07/29/%E4%B9%A6%E5%B1%8B-%E5%BC%80%E7%AF%87/</url>
+      
+        <content type="html"><![CDATA[<h2 id="关于这个专栏"><a href="#关于这个专栏" class="headerlink" title="关于这个专栏"></a>关于这个专栏</h2><p>“秋水的书屋”——读万卷书，行万里路。</p><p>技术书籍、人文经典、论文精读。每一本好书都值得被认真对待。</p><hr><blockquote><p>秋水时至，百川灌河。</p></blockquote><p>未完待续。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 秋水的书屋 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 读书 </tag>
+            
+            <tag> 推荐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的来时路 · 开篇</title>
+      <link href="/2026/07/29/%E6%9D%A5%E6%97%B6%E8%B7%AF-%E5%BC%80%E7%AF%87/"/>
+      <url>/2026/07/29/%E6%9D%A5%E6%97%B6%E8%B7%AF-%E5%BC%80%E7%AF%87/</url>
+      
+        <content type="html"><![CDATA[<h2 id="关于这个专栏"><a href="#关于这个专栏" class="headerlink" title="关于这个专栏"></a>关于这个专栏</h2><p>“我的来时路”——记录一路走来的足迹。</p><p>从华科本科到博士毕业，从分布式存储到 AI Infra。每一步的选择、每一次的转折、每一个深夜的代码与思考，都写在这里。</p><hr><p>未完待续。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 我的来时路 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 人生 </tag>
+            
+            <tag> 回顾 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>学术成果汇总</title>
+      <link href="/2026/07/29/Research-Publications/"/>
+      <url>/2026/07/29/Research-Publications/</url>
+      
+        <content type="html"><![CDATA[<h2 id="研究方向"><a href="#研究方向" class="headerlink" title="研究方向"></a>研究方向</h2><p>分布式存储系统、LSM-Tree 键值存储、云存储、持久化内存索引</p><hr><h2 id="论文发表"><a href="#论文发表" class="headerlink" title="论文发表"></a>论文发表</h2><h3 id="CCF-A-类"><a href="#CCF-A-类" class="headerlink" title="CCF-A 类"></a>CCF-A 类</h3><ol><li><p><strong>HeapKV: Enabling Efficient Garbage Collection for KV-Separated LSM Stores on Modern SSDs</strong></p><ul><li>*ACM Transactions on Architecture and Code Optimization (TACO)*，Vol. 23, Issue 2，2026</li><li>学生作者，已发表</li><li>DOI: <a href="https://doi.org/10.1145/3817051">10.1145&#x2F;3817051</a></li></ul></li><li><p><strong>RaKV: A Write-Optimized LSM Store for Cloud Block Storage with Robust SLA</strong></p><ul><li>*ACM Transactions on Architecture and Code Optimization (TACO)*，2025</li><li>第一作者，已接收</li></ul></li><li><p><strong>A Contract-Aware and Cost-effective LSM Store for Cloud Storage with Low Latency Spikes</strong></p><ul><li>*ACM Transactions on Storage (TOS)*，2024</li><li>第一作者，已发表</li></ul></li><li><p><strong>Calcspar: A Contract-Aware LSM Store for Cloud Storage with Low Latency Spikes</strong></p><ul><li>*USENIX Annual Technical Conference (USENIX ATC ‘23)*，2023</li><li>第一作者，已发表</li></ul></li><li><p><strong>Building a Fast and Efficient LSM-tree Store by Integrating Local Storage with Cloud Storage</strong></p><ul><li>*ACM Transactions on Architecture and Code Optimization (TACO)*，2022</li><li>学生二作，已发表</li></ul></li></ol><h3 id="CCF-B-类"><a href="#CCF-B-类" class="headerlink" title="CCF-B 类"></a>CCF-B 类</h3><ol start="5"><li><p><strong>云存储多卷负载均衡的LSM键值存储系统</strong></p><ul><li><em>小型微型计算机系统</em>，2023</li><li>学生二作，已发表</li></ul></li><li><p><strong>Building a Fast and Efficient LSM-tree Store by Integrating Local Storage with Cloud Storage</strong></p><ul><li>*IEEE International Conference on Cluster Computing (CLUSTER)*，2022</li><li>学生二作，已发表</li></ul></li></ol><h3 id="其他国际会议"><a href="#其他国际会议" class="headerlink" title="其他国际会议"></a>其他国际会议</h3><ol start="7"><li><strong>HBTree: an Efficient Index Structure Based on Hybrid DRAM-NVM</strong><ul><li>*IEEE Non-Volatile Memory Systems and Applications Symposium (NVMSA)*，2021</li><li>第一作者，已发表</li></ul></li></ol><hr><h2 id="专利"><a href="#专利" class="headerlink" title="专利"></a>专利</h2><p>一种 DRAM-NVM 混合索引结构的构建方法及操作方法（已授权）</p><hr><h2 id="研究关键词"><a href="#研究关键词" class="headerlink" title="研究关键词"></a>研究关键词</h2><p><code>LSM-Tree</code> <code>Cloud Storage</code> <code>Key-Value Store</code> <code>SLA</code> <code>NVM</code> <code>Hybrid Index</code> <code>Load Balancing</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 研究 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 论文 </tag>
+            
+            <tag> 数据库 </tag>
+            
+            <tag> 存储系统 </tag>
+            
+            <tag> LSM-Tree </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2026/07/29/Hello-World/"/>
+      <url>/2026/07/29/Hello-World/</url>
+      
+        <content type="html"><![CDATA[<h2 id="欢迎-👋"><a href="#欢迎-👋" class="headerlink" title="欢迎 👋"></a>欢迎 👋</h2><p>这是博客重建后的第一篇文章。</p><p>后续会陆续更新技术文章，内容涵盖：</p><ul><li><strong>分布式系统</strong>：Raft、Paxos、分布式事务</li><li><strong>数据库</strong>：TiKV、LSM-Tree、存储引擎</li><li><strong>Rust &#x2F; Go</strong>：系统编程实践</li><li><strong>杂谈</strong>：读书笔记、工具推荐</li></ul><hr><p>站名取自一首词：</p><blockquote><p>醉舞经阁半卷书，坐井说天阔。</p></blockquote><p>Stay tuned. 🚀</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="600" viewBox="0 0 1920 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#0a1628"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="line1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:transparent"/>
+      <stop offset="50%" style="stop-color:#00d4ff;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:transparent"/>
+    </linearGradient>
+    <linearGradient id="line2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:transparent"/>
+      <stop offset="50%" style="stop-color:#58a6ff;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:transparent"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1920" height="600" fill="url(#bg)"/>
+  <!-- 网格线 -->
+  <g opacity="0.05">
+    <line x1="0" y1="150" x2="1920" y2="150" stroke="#00d4ff" stroke-width="0.5"/>
+    <line x1="0" y1="300" x2="1920" y2="300" stroke="#00d4ff" stroke-width="0.5"/>
+    <line x1="0" y1="450" x2="1920" y2="450" stroke="#00d4ff" stroke-width="0.5"/>
+    <line x1="480" y1="0" x2="480" y2="600" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="960" y1="0" x2="960" y2="600" stroke="#58a6ff" stroke-width="0.5"/>
+    <line x1="1440" y1="0" x2="1440" y2="600" stroke="#58a6ff" stroke-width="0.5"/>
+  </g>
+  <!-- 装饰线 -->
+  <line x1="100" y1="200" x2="600" y2="200" stroke="url(#line1)" stroke-width="1"/>
+  <line x1="800" y1="350" x2="1600" y2="350" stroke="url(#line2)" stroke-width="1"/>
+  <!-- 代码装饰 -->
+  <g font-family="monospace" font-size="14" opacity="0.08" fill="#58a6ff">
+    <text x="120" y="180">fn main() {</text>
+    <text x="140" y="200">let world = "Hello";</text>
+    <text x="140" y="220">println!("{}", world);</text>
+    <text x="120" y="240">}</text>
+  </g>
+  <g font-family="monospace" font-size="14" opacity="0.08" fill="#00d4ff">
+    <text x="1400" y="330">SELECT * FROM ideas</text>
+    <text x="1400" y="350">WHERE status = 'WIP'</text>
+    <text x="1400" y="370">ORDER BY passion DESC;</text>
+  </g>
+  <!-- 中心点 -->
+  <circle cx="960" cy="300" r="2" fill="#00d4ff" opacity="0.5" filter="url(#glow)"/>
+  <circle cx="960" cy="300" r="6" fill="none" stroke="#00d4ff" opacity="0.15" stroke-width="0.5"/>
+  <circle cx="960" cy="300" r="12" fill="none" stroke="#00d4ff" opacity="0.05" stroke-width="0.5"/>
+</svg>
